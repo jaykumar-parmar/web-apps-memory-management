@@ -1,0 +1,25 @@
+{
+    "include": [
+      "**/*.ts"    
+    ],
+    "exclude": [    
+      "node_modules",
+      "../../node_modules",
+      "**/*.spec.ts"
+    ],
+    "compilerOptions": {
+      "target": "es5",                         
+      "module": "amd",                          
+      "sourceMap": true,                     
+      "outDir": "./dist",                    
+      "rootDir": "./",                    
+      "strict": false,                       
+      "moduleResolution": "node",            
+      "baseUrl": "./",                    
+      "inlineSources": true,
+      "lib": [
+        "ES2015",
+        "dom"
+      ],
+    },
+  }
